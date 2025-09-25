@@ -49,3 +49,15 @@ img {
     padding-inline: 32px;
     margin-inline: auto;
 }
+
+.content-tag {
+   display: inline-block;
+   background-color: var(--brand-color-dark);
+   padding: 4px 8px;
+   border-radius: 4px;
+   font: 500 10px/1.2 var(--font-family);
+   text-transform: uppercase;
+   letter-spacing: 0.04em; 
+   color: var(--text-colorp);
+   box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.89);
+}

@@ -25,4 +25,15 @@
         );
         
     }
+    figcaption{
+        position: absolute;
+        bottom: 0;
+
+        padding: 24px;
+
+        h2, h3{
+            margin-top: 8px;
+        }
+    }
+    
 }

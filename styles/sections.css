@@ -41,3 +41,20 @@
     }
     
 }
+
+#weekly {
+    border: solid 1px var(--stroke-color);
+    border-inline: none;
+}
+
+#weekly header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 12px;
+}
+
+#weekly div {
+    padding-top: 24px;
+}

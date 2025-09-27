@@ -1,3 +1,25 @@
+section header {
+    border-top: 1px solid var(--stroke-color);
+    padding-block: 12px 24px;
+    font: var(--span);
+
+    a {
+        justify-self: end;
+        align-items: center;
+        gap: 8px;
+
+        span {
+            background-image: url(../assets/icons/Vectorrr.svg);
+            width: 16px;
+            height: 16px;
+        }
+        &:hover span {
+            background-image: url(../assets/icons/ArrowRightHover.svg);
+        }
+    }
+}
+
+
 #featured {
     img{
     height: 100%;
@@ -42,19 +64,28 @@
     
 }
 
+
 #weekly {
-    border: solid 1px var(--stroke-color);
-    border-inline: none;
-}
 
-#weekly header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    &>div {
+        grid-template-columns: repeat(4, 292px);
+    }
+    img {
+        height: 160px;
+    }
 
-    padding-top: 12px;
-}
+    figure {
+        position: relative;
 
-#weekly div {
-    padding-top: 24px;
+        .content-tag{
+            position: absolute;
+            top: 8px;
+            left: 8px;
+        }
+
+        p{
+            margin-top: 8px;
+            font-weight: 800;
+        }
+    }
 }
